@@ -1,0 +1,61 @@
+/*
+####################################
+            GERAL
+####################################
+*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+/*
+####################################
+            HEADER
+####################################
+*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    div{
+        display: flex;
+        ul{
+            display: flex;
+            li{
+                font-size: 15px;
+                padding: 0 15px 0 15px;
+            }
+            li.products{
+                a{
+                    padding: 0 20px 0 20px;
+                }
+            }
+        }
+    }
+}
+
+/*
+////////////////////////////////////
+            FOOTER
+////////////////////////////////////
+*/
+
+footer div.fim{
+    display: flex;
+    
+}
+footer div ul.icons{
+    display: flex;
+    
+}
+footer div ul.icons li{
+    padding: 5px;
+   
+}
+footer p.made{
+    background-color: rgb(209, 230, 248);
+}
