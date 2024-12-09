@@ -147,22 +147,38 @@ section.ready{
         text-align: center;
         margin: 8vw 0 2vw 0;
     }
-    p{
+    >p{
         text-align: center;
         color: #737373;
         font-size: 15px;
-        margin: 0 0 5vw 0;
+        margin: 0 35vw 5vw 35vw;
     }
     >div{
         justify-content: center;
         display: flex;
         div{
             img{
-                margin: 0 8vw 0 0;
+                margin: 0 8vw 0 10vw;
             }
+        }
+        div{
             ul{
+                margin: 4vw 0 0 0;
                 li{
+                    display: inline-block;
+                    margin: 1vw 3vw 3vw 5vw;
                     text-align: left;
+                    span#amarelo{
+                        background-color: #E1F4FF;
+                        padding: 1vw 1vw 1vw 1vw;
+                        font-size: 2.2rem;
+                        border-radius: 8px;
+                    }
+                    h3{
+                        margin: 15px 0 15px 0;
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                    }
                     p{
                         text-align: left;
                     }
@@ -173,6 +189,36 @@ section.ready{
     }
 
 }
+
+
+/*
+/////////////////////////////////////
+            DOWNLOAD
+///////////////////////////////////
+*/
+
+section.download{
+    margin: 5vw 5vw 3vw 5vw;
+    background-color: #FBBC05;
+    background: url(../images/iPhone-13-Pro-Front.png) no-repeat,linear-gradient(#FBBC05, #FBBC05);
+    background-position: right;
+    padding: 10vw;
+    border-radius: 24px;
+    color: white;
+    h3{
+        font-size: 3rem;
+        margin: 0 0 1vw 0;
+    }
+    p{
+        margin: 0 0 2vw 0;
+    }
+}
+
+
+
+
+
+
 
 
 /*
@@ -232,5 +278,9 @@ div.features ul li {
 div.fim p.conteudo {
     color: #737373;
     margin: 20px;
-    width: 70%;
+    width: 85%;
+}
+
+section.ready>div{
+    display: flex;
 }
